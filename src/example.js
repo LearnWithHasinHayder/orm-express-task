@@ -8,6 +8,9 @@ app.get('/',(req, res)=>{
     res.send("Welcome to Express!!!")
 })
 
+//  /?type=medicine
+//  /?type=food
+
 app.get("/greet/:name", (req,res)=>{
     const name = req.params.name
     // const title = req.query.title || "Mr"
